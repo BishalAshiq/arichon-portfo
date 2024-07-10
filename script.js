@@ -30,3 +30,17 @@ function erase() {
 document.addEventListener("DOMContentLoaded", function () {
     setTimeout(typeWriter, delayBetweenWords);
 });
+
+
+
+// About Us 
+
+document.getElementById('about-link').addEventListener('click', function(event) {
+    event.preventDefault();
+    document.getElementById('about-me-section').scrollIntoView({ behavior: 'smooth' });
+});
+// Home 
+document.getElementById('home-section').addEventListener('click', function(event) {
+    event.preventDefault();
+    document.getElementById('home-section').scrollIntoView({ behavior: 'smooth' });
+});
