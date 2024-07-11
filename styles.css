@@ -270,12 +270,18 @@ a{
 
 
   /* Responsivness  */
-  @media only screen and (max-device-width: 500px){
 
-  }
   @media only screen and (max-device-width: 500px) {
-    .banner-background{
-      width: 100% !important;
+  
+    .banner-background {
+      width: 100%;
+      height: 100vh;
+      background-image: url(images/banner-bg-1.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: white;
+      /* border: 1px solid gray; */
     }
     .navbar-toggler {
       background-color: #007bff; /* Default color */
